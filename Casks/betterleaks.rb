@@ -3,7 +3,7 @@ cask "betterleaks" do
   name "betterleaks"
   desc "Secrets scanner built on the legacy of gitleaks"
   homepage "https://github.com/betterleaks/betterleaks"
-  version "1.0.1"
+  version "1.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "betterleaks" do
   on_macos do
     on_intel do
       url "https://github.com/betterleaks/betterleaks/releases/download/v#{version}/betterleaks_#{version}_darwin_x64.tar.gz"
-      sha256 "2bb90d73fdd89ee1608c6d07af09fb1fd872077ba29564d69b8b5db142791f92"
+      sha256 "30fc5a4c1647daa669079314c011c52eb3253b8ce65b42e68ebcb99983533202"
     end
     on_arm do
       url "https://github.com/betterleaks/betterleaks/releases/download/v#{version}/betterleaks_#{version}_darwin_arm64.tar.gz"
-      sha256 "e5d4203fae1914e208d728dc479a51db03b0a8542114fc4a9fac2ef99f897355"
+      sha256 "7dc515468771ee189984d4120416a8af3314bc36e015daf3983f212f303860ac"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/betterleaks/betterleaks/releases/download/v#{version}/betterleaks_#{version}_linux_x64.tar.gz"
-      sha256 "b3b76d87aea32b3b4d6c2f719eb247e0679c5e2a1fcd5618d678eee35eabf8c0"
+      sha256 "dc676c8c2e3a848dddf0447423b319eeb88c6eca31ae335459f884b9eb81166d"
     end
     on_arm do
       url "https://github.com/betterleaks/betterleaks/releases/download/v#{version}/betterleaks_#{version}_linux_arm64.tar.gz"
-      sha256 "b9f37e88b86005cd05b55a9feb0b5dc0af6446d5770e7c2b643e5d276ecd4be8"
+      sha256 "257555824a88538d5190945fe5ef900755d836c6845c67ec3a0114d43d8eb5e9"
     end
   end
 
